@@ -13,3 +13,20 @@ i = 1
 while i<=n:
     print(2*i,end=" ")
     i+=1
+ 
+ 
+#while loop for square value(1 4 9 16)
+n = 5
+i = 1
+while i<=n:
+    print(i*i,end=" ")
+    i+=1
+
+
+
+#while loop for Cube value(1 8 27 64)
+n = 5
+i = 1
+while i<=n:
+    print(i*i*i,end=" ")
+    i+=1
