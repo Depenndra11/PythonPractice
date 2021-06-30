@@ -1,0 +1,9 @@
+#reverse string 123 to 321
+def reverse(s):
+	str = " "
+	for i in s:
+		str = i + str           #first add 1 in str and in next loop add 2 and same for 3
+print ("The original string is : ",end=" ")
+print (s)
+print ("The reversed string(using loops) is : ",end=" ")
+print (reverse(s))
