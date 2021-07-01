@@ -31,8 +31,10 @@ while i<=n:
     print(i*i*i,end=" ")
     i+=1
     
-    
-    
+ 
+
+
+
     
 #print 1010 string with while loop
 n = 5
@@ -55,3 +57,17 @@ while i<=n:
     else:
         print(1,end=" ")
     i+=1
+    
+    
+    
+    
+# Python Program to Reverse String
+string = input("Please enter your own String : ")
+string2 = ''
+i = len(string) - 1
+while(i >= 0):
+    string2 = string2 + string[i]
+    i = i - 1
+print("\nThe Original String = ", string)
+print("The Reversed String = ", string2))
+print("The Given String in Lowercase =  ", string1)
