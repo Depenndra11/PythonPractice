@@ -9,4 +9,12 @@ for row in range(char):                     ####set rows                        
     
     
     
-    
+
+#print star in multiple rows 
+n = int(input("enter a value"))             
+star = "*"                                 ####check string length                                               *    
+for row in range(n):                       ####set rows                                                          **
+    for col in range(row+1):               ####set col for each row for 0 row add 0+1 col                        ***
+        print(star, end=" ")               ####print each string value according col size                        ****
+        col+1                              ####increment col + 1 value                                           *****
+    print()                                #### again in row loop to change line
