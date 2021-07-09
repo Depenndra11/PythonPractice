@@ -18,3 +18,19 @@ for row in range(n):                       ####set rows                         
         print(star, end=" ")               ####print each string value according col size                        ****
         col+1                              ####increment col + 1 value                                           *****
     print()                                #### again in row loop to change line
+
+
+
+
+
+
+#to print front and backward string
+num = int(input("enter a value"))      
+for i in range(1 ,num+1):                 ####set rows 
+    for j in range(1,num-i+1):            ####For loop To print spaces 2-1+1=1                                  1
+        print(end=" ")                    ####To print space in same line                                      212
+    for j in range(i,0,-1):               ####For loop to reverse 123 in step -1                              321123
+        print(j,end="")                   ####print reverse 123 in same line                                  43211234
+    for j in range(2,i+1):                ####print 123
+        print(j,end="")             
+    print()                               ####change row
