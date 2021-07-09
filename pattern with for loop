@@ -1,0 +1,12 @@
+#print python in different rows and each string value
+string = "python"                                                                                               P
+char = len(string)                          ####check string length                                             P Y                                     
+for row in range(char):                     ####set rows                                                        P Y T
+    for col in range(row+1):                ####set col for each row for 0 row add 0+1 col                      P Y T H 
+        print(string[col],end=" ")          ####print each string value according col size                      P Y T H O 
+    print()                                 #### again in row loop to change line                               P Y T H O N
+    
+    
+    
+    
+    
