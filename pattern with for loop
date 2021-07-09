@@ -37,6 +37,17 @@ for i in range(1 ,num+1):                 ####set rows
         
         
         
+#to print backward string
+num = int(input("enter a value"))
+for i in range(1 ,num+1):                 ####set rows
+    for j in range(1,num-i+1):            ####For loop To print spaces 2-1+1=1                                  1
+        print(end=" ")                    ####To print space in same line                                      21
+    for j in range(i,0,-1):               ####For loop to reverse 123 in step -1                              321
+        print(j,end="")                   ####print reverse 123 in same line
+    print()
+        
+        
+        
  
 #print star according row with increment colum
 n = int(input("enter a value"))                                                                              *
