@@ -1,9 +1,11 @@
-#reverse string 123 to 321
-def reverse(s):
-	str = " "
-	for i in s:
-		str = i + str           #first add 1 in str and in next loop add 2 and same for 3
-print ("The original string is : ",end=" ")
-print (s)
-print ("The reversed string(using loops) is : ",end=" ")
-print (reverse(s))
+def re(s):
+    str  = ""                        #blank string to iterate
+    for i in s:
+        st = len(s)                  #get lenth of string
+        str = i + str                #add single index value as i from s and add str(blabk string)
+        st = st+1                    #increase length value 
+    return str                       #return str value out of for loop
+s = "123"
+print(re(s))
+
+
